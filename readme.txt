@@ -1,0 +1,5 @@
+把各个xlsx丢给班委填，格式都有样例的，照着填就好
+theDay.txt里面放团日相关的推送链接和阅读量
+theProject.txt里面放支部事业相关的推送链接和阅读量
+theoryLearningLinks.txt里面放党建相关的推送链接（不需要阅读量）
+然后运行main.py，会生成test_new.docx，就是填好的甲团评比材料
