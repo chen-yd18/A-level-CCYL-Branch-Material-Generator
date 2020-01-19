@@ -473,20 +473,20 @@ def projectIntegrate(linkFile):
     for eachline in file:
         if eachline[0]<'0' or eachline[0]>'9':
             S = getText(eachline)
-            mapping[check(S,"班主任")] = 1
-            mapping[check(S,"院TMS协会会长")] = 1
-            mapping[check(S,"院TMS分会会长")] = 1
-            mapping[check(S,"博士生讲师团讲师")] = 1
-            mapping[check(S,"博士生讲师团的讲师")] = 1
-            mapping[check(S,"博士生讲师")] = 1
-            mapping[check(S,"辅导员")] = 1
-            mapping[check(S,"校团委干事")] = 1
-            mapping[check(S,"院团委书记")] = 1
-            mapping[check(S,"院党委书记")] = 1
-            mapping[check(S,"校党委书记")] = 1
-            mapping[check(S,"校团委书记")] = 1
-            mapping[check(S,"特奖获得者")] = 1
-            mapping[check(S,"特奖得主")] = 1
+            mapping[check(S,'班主任')] = 1
+            mapping[check(S,'院TMS协会会长')] = 1
+            mapping[check(S,'院TMS分会会长')] = 1
+            mapping[check(S,'博士生讲师团讲师')] = 1
+            mapping[check(S,'博士生讲师团的讲师')] = 1
+            mapping[check(S,'博士生讲师')] = 1
+            mapping[check(S,'辅导员')] = 1
+            mapping[check(S,'校团委干事')] = 1
+            mapping[check(S,'院团委书记')] = 1
+            mapping[check(S,'院党委书记')] = 1
+            mapping[check(S,'校党委书记')] = 1
+            mapping[check(S,'校团委书记')] = 1
+            mapping[check(S,'特奖获得者')] = 1
+            mapping[check(S,'特奖得主')] = 1
     file.close()
     for key in mapping.keys():
         if key!=None:
