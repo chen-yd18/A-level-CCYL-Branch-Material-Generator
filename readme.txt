@@ -3,3 +3,4 @@ theDay.txt里面放团日相关的推送链接和阅读量
 theProject.txt里面放支部事业相关的推送链接和阅读量
 theoryLearningLinks.txt里面放党建相关的推送链接（不需要阅读量）
 然后运行main.py，会生成test_new.docx，就是填好的甲团评比材料
+如果没有python环境，可以在Linux下运行executable-linux.zip下的可执行文件（需要与各个xlsx、txt、docx放在同一目录下）
