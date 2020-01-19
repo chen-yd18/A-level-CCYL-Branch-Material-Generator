@@ -133,6 +133,24 @@ def theDaySessions(linkFile,mode):
                 print(S)
                 mapping[check(S,'知识竞赛')]=1
                 mapping[check(S,'影片欣赏')]=1
+                mapping[check(S,'小组讨论')]=1
+                mapping[check(S,'分组讨论')]=1
+                mapping[check(S,'小组分享')]=1
+                mapping[check(S,'分组分享')]=1
+                mapping[check(S,'小组交流')]=1
+                mapping[check(S,'分组交流')]=1
+                mapping[check(S,'影片观赏')]=1
+                mapping[check(S,'观影')]=1
+                mapping[check(S,'知识竞答')]=1
+                mapping[check(S,'嘉宾总结')]=1
+                mapping[check(S,'嘉宾分享')]=1
+                mapping[check(S,'小组展示')]=1
+                mapping[check(S,'分组展示')]=1
+                mapping[check(S,'情景剧')]=1
+                mapping[check(S,'舞台剧')]=1
+                mapping[check(S,'诗朗诵')]=1
+                mapping[check(S,'嘉宾演讲')]=1
+                mapping[check(S,'主题演讲')]=1
                 # blablabla
                 
     for key in mapping.keys():
@@ -461,6 +479,14 @@ def projectIntegrate(linkFile):
             mapping[check(S,"博士生讲师团讲师")] = 1
             mapping[check(S,"博士生讲师团的讲师")] = 1
             mapping[check(S,"博士生讲师")] = 1
+            mapping[check(S,"辅导员")] = 1
+            mapping[check(S,"校团委干事")] = 1
+            mapping[check(S,"院团委书记")] = 1
+            mapping[check(S,"院党委书记")] = 1
+            mapping[check(S,"校党委书记")] = 1
+            mapping[check(S,"校团委书记")] = 1
+            mapping[check(S,"特奖获得者")] = 1
+            mapping[check(S,"特奖得主")] = 1
     file.close()
     for key in mapping.keys():
         if key!=None:
